@@ -1,0 +1,28 @@
+{*
+    Основаная информация товара.
+    Инклюдится в конечных карточках.
+*}
+
+
+{block name=params}
+
+    {$options = "&q=100&w=300"}
+
+{/block}
+
+
+{$image = $object.image|default:$object.imageDefault}
+
+{$src = $modx->runSnippet('phpthumbof', [
+"input" => $image,
+"options"   => $options
+])}
+
+
+{block name=cart}
+
+    <h2><a href="{$object.uri}" title="{$object.pagetitle|@escape}">{$object.pagetitle}</a></h2>
+    <div><br><a href="{{$object.uri}}" class="btn btn-default btn-cart btn-success">Перейти</a></div>
+    <hr class="indent-36 white-space visible-xs visible-sm"/>
+
+{/block}

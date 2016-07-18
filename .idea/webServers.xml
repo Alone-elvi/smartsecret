@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="40f324d0-f12c-45bf-b589-8740d55cad34" name="smartsecret.ru" url="http://denise.timeweb.ru">
+        <fileTransfer host="denise.timeweb.ru" port="21" rootFolder="/smartsecret.ru/public_html" password="dfdadfc8dfdadffcdfdbdfc2dfc2df9adff9dff0dfd9dfc5" username="cy39789">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" maxConnections="1" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
